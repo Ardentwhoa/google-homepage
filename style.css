@@ -1,0 +1,170 @@
+body {
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	margin: 0 auto;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #404040;
+}
+
+a:hover	{
+	text-decoration: underline;
+	color: #505050;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#nav {
+	position: absolute;
+	right: 25px;
+	top: 20px;
+	margin: 0 auto;
+	padding: 0;
+	word-spacing: 12px;
+	height: 32px;
+	width: 100%;
+	min-width: 980px;
+	text-align: right;
+}
+
+#nav li {
+	margin: 0 auto;
+	margin-bottom: -11px;
+	padding: 0;
+	display: inline-block;
+}
+
+#nav ul {
+	margin: 0 auto;
+	padding: 0;
+}
+
+#apps {
+	width: 30px;
+	height: 30px;
+	background-image: url(https://ssl.gstatic.com/gb/images/i1_71651352.png);
+	background-position: -326px -52px;
+}
+
+#notifs {
+	position: relative;
+	top: -5px;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,.85);
+	background-image: url(https://ssl.gstatic.com/gb/images/i1_71651352.png);
+	background-position: -214px -117px;
+}
+
+#account {
+	background-image: url(https://lh4.googleusercontent.com/-C1uikho8Boc/AAAAAAAAAAI/AAAAAAAAAAA/jaek3GO46Yo/s32-c/photo.jpg);
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+}
+
+center {
+	top: 225px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+
+.sub_search {
+	line-height: 27px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	width: 202px;
+	top: -10px;
+}
+
+.sub_b {
+	line-height: 27px;
+	height: 29px;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 11px 8px;
+	min-width: 54px;
+	padding: 0 8px;
+	text-align: center;
+}
+
+#sub_l {
+
+}
+
+#sub_r {
+	
+}
+
+#logo {
+	position: relative;
+	top: 192px;
+	width: 269px;
+	height: 95px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#logo img {
+	height: 95px;
+	width: 269px;
+}
+
+#searchbar {
+	position: relative;
+	top: 218px;
+	height: 19px;
+	width: 545px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#user_in {
+	height: 25px;
+	line-height: 1.2em;
+	margin: 0 auto;
+	padding: 0;
+	width: 545px;
+}
+
+#f_wrapper {
+	min-width: 300px;
+}
+
+#footer {
+	background-color: #f2f2f2;
+	position: fixed;
+	top: 770px;
+	word-spacing: 12px;
+	height: 50px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	border-top: 1px solid black;
+}
+
+#footer li {
+	display: inline-block;
+}
+
+#f_left {
+	margin-left: 12px;
+	padding: 0;
+	float: left;
+}
+
+#f_right {
+	margin-right: 12px;
+	padding: 0;
+	float: right;
+}
